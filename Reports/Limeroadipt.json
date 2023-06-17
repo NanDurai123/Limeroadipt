@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 80569768100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch browser",
+            "match": {
+              "location": "stepdef.Limestepdef.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4215435800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch url",
+            "match": {
+              "location": "stepdef.Limestepdef.launch_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)\" because \"this.searchContext\" is null\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)\r\n\tat org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)\r\n\tat iptbase.Baseclass.scrollAndClick(Baseclass.java:223)\r\n\tat stepdef.Limestepdef.click_th_element_to_select_men_option_go_for_men_page(Limestepdef.java:31)\r\n\tat ✽.click th element to select men option go for men page(file:///C:/Users/Gateway/eclipse-workspace/Limeroadipt/src/test/java/feature/lime.feature:7)\r\n",
+              "duration": 195878900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "click th element to select men option go for men page",
+            "match": {
+              "location": "stepdef.Limestepdef.click_th_element_to_select_men_option_go_for_men_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3997900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user to login profile then login to the option is given below",
+            "match": {
+              "location": "stepdef.Limestepdef.user_to_login_profile_then_login_to_the_option_is_given_below()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9993200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user to click the login page",
+            "match": {
+              "location": "stepdef.Limestepdef.user_to_click_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user to login for mobile number to given",
+            "match": {
+              "location": "stepdef.Limestepdef.user_to_login_for_mobile_number_to_given()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14991500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "to click next button mobile to get opt for login",
+            "match": {
+              "location": "stepdef.Limestepdef.to_click_next_button_mobile_to_get_opt_for_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1999200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "after given in opt to certain feild",
+            "match": {
+              "location": "stepdef.Limestepdef.after_given_in_opt_to_certain_feild()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6995400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "after the opt to verify bouuton to click",
+            "match": {
+              "location": "stepdef.Limestepdef.after_the_opt_to_verify_bouuton_to_click()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-02T14:41:35.935Z",
+        "line": 15,
+        "name": "to search the product in tshirt",
+        "description": "",
+        "id": "login-limeroad;to-search-the-product-in-tshirt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000300,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user to click the icon for tshirt",
+            "match": {
+              "location": "stepdef.Limestepdef.user_to_click_the_icon_for_tshirt()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "after click the model and select the product",
+            "match": {
+              "location": "stepdef.Limestepdef.after_click_the_model_and_select_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "after click the perticular product size m",
+            "match": {
+              "location": "stepdef.Limestepdef.after_click_the_perticular_product_size_m()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "after to product in add to cart",
+            "match": {
+              "location": "stepdef.Limestepdef.after_to_product_in_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdef.Limestepdef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login limeroad",
+    "description": "",
+    "id": "login-limeroad",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/lime.feature",
+    "tags": []
+  }
+]
